@@ -1,5 +1,4 @@
 export default function caeserCipher(string, shift) {
-  //let splitString = string.split("");
   let newArray = [];
   for (let i = 0; i < string.length; i++) {
     const char = string.charCodeAt(i);
